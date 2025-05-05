@@ -8,8 +8,8 @@ while running:
 
   computer = random.choice(Options)
   
-  while Player not in opitons: 
-  Player = inout("Enter a choice (Rock, Paper, Scissors): "
+  while Player not in Options: 
+    Player = input("Enter a choice (Rock, Paper, Scissors): ")
   
   print(f"Player: {Player}")
   print(f"Computer: {computer}")
