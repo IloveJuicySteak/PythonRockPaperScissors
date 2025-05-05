@@ -23,7 +23,7 @@ while running:
   elif Player == "Scissors" and computer == "Paper":
                  print ("You win!")
   else:
-  print ("You Lose!")
+    print ("You Lose!")
 
   if not input("Play again> (y/n): ").lower == "y":
     running = False
